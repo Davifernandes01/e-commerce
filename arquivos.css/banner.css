@@ -1,0 +1,41 @@
+.banner-promocional{
+    height: 350px;
+    background-image: url("../imagens/intro-desktop.jpg");
+    background-repeat: no-repeat;
+    
+    
+}
+
+.banner-promocional-frases{
+    color: var(--branco);
+    font-family: var(--Raleway);
+    margin-left: 4em;
+    width: 600px;
+    height: 350px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.banner-promocional-frases-titulo{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 2;
+
+}
+
+.banner-promocional-frases-p{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 2.5;
+}
+
+.banner-promocional-frases-btn{
+    align-self: flex-start;
+    height: 50px;
+    background-color: var(--azul-claro);
+    color: var(--branco);
+    padding: 1em 2em;
+    border-radius: 20px;
+}

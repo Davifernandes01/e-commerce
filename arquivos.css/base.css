@@ -1,0 +1,20 @@
+
+:root {
+
+    --branco: #fff;
+    --cinza-claro: #e5e5e5;
+    --azul-claro: #2A7AE4;
+    --cinza-escuro: #464646;
+    --azul-cinza:  #EAF2FD;
+    --Raleway: 'Raleway', sans-serif;
+
+}
+
+header{
+    height: 115px;
+    display: flex;
+    align-items: center;
+    width: auto;
+    justify-content: space-around;
+    background-color: var(--branco);
+}

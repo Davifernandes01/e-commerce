@@ -1,0 +1,41 @@
+.container-header{
+display: flex;
+    width: 650px;
+    align-items: center;
+}
+
+.div-pesquisa{
+    display: flex;
+    align-items: center;
+    width: 450px;
+}
+
+.barra-de-pesquisa
+{
+    margin-left: 1em;
+    border: 1px solid var(--branco);
+    padding: 1em 5em;
+    border-radius: 2em;
+    background-color: var(--cinza-claro);
+    outline: none;
+   
+
+}
+
+
+.img-pesquisa{
+    border: 1px solid var(--cinza-claro);
+    padding: 0.5em ;
+    border-radius: 30px;
+    margin-left: 1em;
+}
+
+
+
+.img-login{
+    align-self: flex-start;
+    border: 1px solid var(--azul-claro);
+    padding: 1em 3em;
+    border-radius: 20px;
+    
+}
