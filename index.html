@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="arquivos.css/reset.css">
+    <link rel="stylesheet" href="arquivos.css/base.css">
+    <link rel="stylesheet" href="arquivos.css/cabecalho.css">
+    <link rel="stylesheet" href="arquivos.css/banner.css">
     <title>Document</title>
 </head>
 <body>
@@ -13,19 +19,27 @@
             <img src="imagens/logo-controle.png" alt="logo-controle">
             <img src="imagens/AluraGeek.png" alt="logo AluraGeek">
             <img src="imagens/geek.png" alt="logo geek">
-            <img src="imagens/Barra de pesquisa.png" alt="barra-pesquisa">
+           <div class="div-pesquisa">
+                <input type="text" placeholder="O que deseja encontrar ?" class="barra-de-pesquisa">
+
+                <button class="img-pesquisa"><a href="#"><img src="imagens/search.svg" alt="search" ></a></button>
+           </div> 
+           
        </section> 
 
-       <img src="imagens/login.png" alt="login">
+       <div>
+        <img src="imagens/login.png" alt="login" class="img-login">
+       </div>
+       
        
     </header>
 
     <main>
-            <section>
-                <div>
-                    <h1>Dezembro Promocional</h1>
-                    <p>Produtos selecionados com 33% de desconto</p>
-                    <button>Ver consoles</button>
+            <section class="banner-promocional">
+                <div class="banner-promocional-frases">
+                    <h1 class="banner-promocional-frases-titulo">Dezembro Promocional</h1>
+                    <p class="banner-promocional-frases-p">Produtos selecionados com 33% de desconto</p>
+                    <button class="banner-promocional-frases-btn"><a href="#">Ver consoles</a></button>
                 </div>
             </section>
           
@@ -202,7 +216,7 @@
 
 
     <footer>
-        <h3>Desenvolvido por Davi Fernandes- 2022</h3>
+        <h3>Desenvolvido por Davi Fernandes - 2022</h3>
     </footer>
     
 </body>
