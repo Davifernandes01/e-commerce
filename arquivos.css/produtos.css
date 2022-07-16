@@ -1,0 +1,51 @@
+.container-imagens-cabecalho-produtos{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    align-items: center;
+    
+
+}
+
+.container-imagens-cabecalho-produtos-ver-tudo{
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    margin-left: 80%;
+}
+.container-produtos{
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.produtos-mensagens{
+    font-family: var(--Raleway);
+    font-weight: 200;
+    line-height: 1.5;
+    font-size: 1.3em;
+}
+
+.produtos-mensagens-preco{
+    font-family: var(--Raleway);
+    color: var(--preto);
+    font-weight: 900;
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+
+.produtos-mensagens-ver-produto{
+
+    font-family: var(--Raleway);
+    color: var(--azul-claro);
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 1.4em;
+
+
+}
