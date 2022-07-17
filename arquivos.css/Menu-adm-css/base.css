@@ -1,4 +1,3 @@
-
 :root {
 
     --branco: #fff;
@@ -14,17 +13,11 @@
 header{
     height: 115px;
     display: flex;
-    align-items: center;
-    width: auto;
-    justify-content: space-around;
-    background-color: var(--branco);
+    margin-left: 3em;
+    
 }
 
 main{
+    height: 600px;
     background-color: var(--cinza-claro);
-}
-
-footer{
-    height: 50px;
-   
 }
